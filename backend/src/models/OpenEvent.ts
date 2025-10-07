@@ -2,7 +2,7 @@ import mongoose, { Schema, Document } from 'mongoose';
 
 
 export interface IOpenEvent extends Document {
-trackingId: string;
+trackingId: any;
 ip?: string | null;
 ua?: string | null;
 headers?: any;
